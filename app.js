@@ -10,9 +10,7 @@ passport.use(new SteamStrategy({
     apiKey: process.env.API_KEY
   },
   function(identifier, profile, done) {
-    User.findByOpenID({ openId: identifier }, function (err, user) {
-      return done(err, user);
-    });
+    console.log(profile)
   }
 ));
 
