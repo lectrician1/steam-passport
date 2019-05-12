@@ -4,7 +4,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "express-session": "^1.16.1",
-    "ejs": "^1.6.1",
+    "ejs": "^2.6.1",
     "passport": "^0.4.0",
     "passport-steam": "^1.0.10"
   },
